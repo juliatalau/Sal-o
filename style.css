@@ -1,6 +1,6 @@
 
         body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; }
-        header { background-color: #f2b6c4; color: #fff; padding: 20px 0; text-align: center; }
+        header { background-color: #eb3a3a; color: #fff; padding: 20px 0; text-align: center; }
         section { padding: 20px; }
         .container { max-width: 1200px; margin: auto; }
         .servicos, .precos, .loja, .espera, .formularios { background-color: #f9f9f9; padding: 20px; margin: 20px 0; border-radius: 8px; }
