@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salão Beleza Suprema</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; }
+        header { background-color: #f2b6c4; color: #fff; padding: 20px 0; text-align: center; }
+        section { padding: 20px; }
+        .container { max-width: 1200px; margin: auto; }
+        .servicos, .precos, .loja, .espera, .formularios { background-color: #f9f9f9; padding: 20px; margin: 20px 0; border-radius: 8px; }
+        .formulario input, .formulario textarea, .formulario button { display: block; width: 100%; margin: 10px 0; padding: 8px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Salão Beleza Suprema</h1>
+    <p>Transformando sua beleza com estilo e cuidado!</p>
+</header>
+
+<section class="container">
+    <!-- Logotipo -->
+    <div id="logotipo">
+        <img src="logotipo.png" alt="Logotipo do Salão Beleza Suprema" style="width: 150px;">
+    </div>
+
+    <!-- Missão -->
+    <div id="missao">
+        <h2>Missão</h2>
+        <p>Proporcionar um atendimento de qualidade, com profissionais experientes e um ambiente acolhedor, onde cada cliente sai satisfeito e renovado.</p>
+    </div>
+
+    <!-- Localização -->
+    <div id="localizacao">
+        <h2>Localização</h2>
+        <p>Endereço: Rua da Beleza, 123, Lisboa, Portugal</p>
+        <p>Telefone: (351) 912 345 678</p>
+    </div>
+
+    <!-- Tipos de Corte de Cabelo -->
+    <div class="servicos">
+        <h2>Tipos de Corte de Cabelo</h2>
+        <ul>
+            <li>Corte Clássico Masculino - 15€</li>
+            <li>Corte Feminino em Camadas - 20€</li>
+            <li>Corte Infantil - 10€</li>
+            <li>Undercut - 18€</li>
+            <li>Corte Bob - 22€</li>
+            <li>Desenho na Lateral - 25€</li>
+        </ul>
+    </div>
+
+    <!-- Preço dos Produtos -->
+    <div class="precos">
+        <h2>Preços dos Produtos</h2>
+        <ul>
+            <li>Shampoo Hidratante - 8€</li>
+            <li>Máscara Capilar - 15€</li>
+            <li>Creme de Pentear - 10€</li>
+            <li>Sérum Anti-Frizz - 12€</li>
+            <li>Óleo Capilar - 18€</li>
+        </ul>
+    </div>
+
+    <!-- Loja de Conveniência -->
+    <div class="loja">
+        <h2>Loja de Conveniência</h2>
+        <p>Encontre os melhores produtos para o seu cabelo diretamente em nosso salão. Temos shampoos, condicionadores, cremes de hidratação e muito mais!</p>
+    </div>
+
+    <!-- Lugar de Espera dos Clientes e Atratividades -->
+    <div class="espera">
+        <h2>Espaço de Espera</h2>
+        <p>Nosso salão oferece um ambiente confortável para espera, com revistas, Wi-Fi gratuito e bebidas de cortesia.</p>
+    </div>
+
+    <!-- Formulário para Reserva de Horário -->
+    <div class="formularios">
+        <h2>Reserva de Horário</h2>
+        <form action="reservar_horario.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="data">Data:</label>
+            <input type="date" id="data" name="data" required>
+
+            <label for="servico">Serviço:</label>
+            <textarea id="servico" name="servico" rows="4" placeholder="Descreva o serviço que deseja"></textarea>
+
+            <button type="submit">Reservar</button>
+        </form>
+    </div>
+
+    <!-- Formulário para Cadastro de Clientes -->
+    <div class="formularios">
+        <h2>Cadastro de Clientes</h2>
+        <form action="cadastro_cliente.php" method="post">
+            <label for="nome_cliente">Nome:</label>
+            <input type="text" id="nome_cliente" name="nome_cliente" required>
+
+            <label for="telefone_cliente">Telefone:</label>
+            <input type="tel" id="telefone_cliente" name="telefone_cliente" required>
+
+            <label for="email_cliente">Email:</label>
+            <input type="email" id="email_cliente" name="email_cliente" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+</section>
+
+<footer style="background-color: #f2b6c4; color: #fff; text-align: center; padding: 10px;">
+    <p>Salão Beleza Suprema &copy; 2023 | Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
