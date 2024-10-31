@@ -1,7 +1,45 @@
+.titulo
+{
+    text-align: center;
+}
 
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; }
-        header { background-color: #eb3a3a; color: #f1afaf; padding: 20px 0; text-align: center; }
-        section { padding: 20px; }
-        .container { max-width: 1200px; margin: auto; }
-        .servicos, .precos, .loja, .espera, .formularios { background-color: #f8b0b0; padding: 20px; margin: 20px 0; border-radius: 8px; }
-       
+.iimg
+{
+    margin-left: 480px;
+}
+
+body
+{
+    background-color: #DAA520;
+}
+
+.ddiv
+{
+    background-color: gray;
+    height: 0 auto;
+    width: 1200px;
+    margin-left: 350px;
+}
+
+.pp
+{
+    text-align: center;
+}
+
+.arte
+{
+    float: right;
+    width: 500px;
+    height: 400px;
+    margin-right: 350px;
+    margin-top: -110px;
+}
+
+.b {
+    background-position: left;
+    background-color: midnightblue;
+    width: 135px;
+    height: 30px;
+    margin-left: 40px;
+    color: #fefffe;
+}
